@@ -71,3 +71,4 @@ if "Turkey" or "USA" in countries_ve:
     print("You can work in either country")
 else: 
     print("It is hard for you to find a job eslewhere!")
+    

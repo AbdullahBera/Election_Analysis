@@ -15,3 +15,8 @@ message_to_collegue = (
     f' You earn a total of ${total_wage * hourly_wage:,}.'
     f' Your monthly earning is ${total_wage * hourly_wage * 4:,}.')
 print(message_to_collegue)
+
+
+outfile = open(file_to_save,'w')
+outfile.write('Hello World')
+outfile.close()

@@ -57,6 +57,6 @@ ques_income = int(input("What is your weekly income?"))
 average_mean = (ques_age + ques_income) * 88
 print("I was born to have $" + str(average_mean) + " at the age of five")
 
-
+countries_dic = {'Islamabad': 45, 'Paris': 300, 'Berlin': 450}
 for city, value in countries_dic.items():
     print(city , "city has" , value , "registered voters" )
