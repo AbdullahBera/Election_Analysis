@@ -1,4 +1,36 @@
-# Election_Analysis
+# Election Analysis
+
+## Overview of Election Audit
+
+In this analysis I am asked by Tom, a Colorado Board of Elections employee to audit the recent local congressional election. The election data is retrived from voters who cast their vote  through either mail-in ballot, punch cards or direct recording electronic machines. Using Python I am asked to compute: 
+
+1. The total number of votes cast. 
+2. The complete list of candidates who received votes and the total number of votes each candiate received. 
+3. The percentage of votes each candidate received. 
+4. The winner of the election according to popular vote. 
+
+I extracted the data of the election results from the csv file located in Resources and I printed the results on a text file located in Analysis. Using for loops I made the code concise and ran it smoothly to extract all the information I was asked for. 
+
+## Election Audit Results 
+Image 1.1 is an overview of the election results. 
+
+
+1. The total number of votes cast in this election was **369,711**. I calculated the total number of votes by skipping the first row and then running a for loop through the rest of the rows. ![Total_votes](Resources/Total_votes.png)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Project Overview 
 In this project I was asked by a Colorado Board of Elections employee to audit the recent local congressional election. 
