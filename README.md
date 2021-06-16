@@ -35,7 +35,7 @@ In this section I will summarize the election results according to county and ca
 ***Image 1.4: Winning Candidate*** 
 
 ## Election Audit Summary 
-This code can be used practically for any election with small modifications. The first modicfication will be by changing the file name the data is found in and the folder where the data is located in.
+This code can be used practically for any election with small modifications. The first modicfication I will suggest is by changing the file name the data is found in and the folder where the data is located in. 
 
 ![Modification_one](Resources/Modification_one.png) ***Image 1.5: Modification to Data***   
 

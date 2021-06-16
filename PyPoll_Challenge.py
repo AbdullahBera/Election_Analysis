@@ -50,7 +50,7 @@ with open(file_to_load) as election_data:
         total_votes = total_votes + 1
 
         # Get the candidate name from each row.
-        candidate_name = row[2]
+        candidate_name = row[2] 
 
         # 3: Extract the county name from each row.
         county_name = row[1]
