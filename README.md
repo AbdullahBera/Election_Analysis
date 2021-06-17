@@ -9,10 +9,10 @@ In this analysis I am asked by Tom, a Colorado Board of Elections employee to au
 3. The percentage of votes each candidate received.
 4. The winner of the election according to popular vote.
 
-I extracted the data of the election results from the csv file located in Resources and I printed the results on a text file located in Analysis. Using for loops I made the code concise and ran it smoothly to extract all the information I was asked for.
+I extracted the data of the election results from the csv file located in Resources and I printed the results on a text file located in Analysis on my computer. Using for loops I made the code concise and ran it smoothly to extract all the information I was asked for.
 
 ## Election Audit Results 
-In this section, I will summarize the election results according to county and candidate. In this election, we recorded three counties: Jefferson, Denver, and Arapahoe. In these counties, three candidates competed: Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.
+In this section, I will summarize the election results according to county and candidate. In this election, we recorded three counties: Jefferson, Denver, and Arapahoe. And in these counties, three candidates competed: Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.
 
 1 - The total number of votes cast in this election was **369,711**. I calculated the total number of votes by skipping the first row and then running a for loop through the rest of the rows. ![Total_votes](Resources/Total_votes.png) ***Image 1.1: Total Number of Votes*** 
 
@@ -22,7 +22,7 @@ In this section, I will summarize the election results according to county and c
 
 ***Image 1.2: Election Results According to County*** 
 
-3 - The county with the largest turnout was Denver with a percentage of 82.8% and a total popular vote of 306,055. To find this result I ran an 'if' condition iterating through all the values to get the highest turnout rate amount the counties. 
+3 - The county with the largest turnout was Denver with a percentage of 82.8% and a total popular vote of 306,055. To find this result I ran an 'if' condition iterating through all the values to get the highest turnout rate among the counties. 
 
 ![Turnout_code](Resources/Turnout_code.png) 
 
@@ -39,7 +39,7 @@ In this section, I will summarize the election results according to county and c
 ***Image 1.5: Winning Candidate*** 
 
 ## Election Audit Summary 
-The great thing about writing automated code is that it can be used anywhere with some modifications. This code can be used practically for any election with small modifications. The first modification I will suggest is by changing the file name the data is found in and the folder where the data is located in. In addition to this, you can also change the folder where you want to save the text.
+The great thing about writing automated code is that it can be used anywhere with some modifications. Just like this code can be used practically for any election with small modifications. The first modification I will suggest is by changing the file name the data is found in and the folder where the data is located in. In addition to this, you can also change the folder where you want to save the text.
 
 ![Modification_one](Resources/Modification_one.png) ***Image 1.6: Modification to Data***   
 
@@ -47,10 +47,10 @@ The second modification I would suggest is if you know the exact number of candi
 
 ![Modification_two](Resources/Modification_two.png) ***Image 1.7: Modification to Data*** 
 
-Moreover, the results can be formatted in a personalized to the business that wishes to purchase this code. 
+Moreover, the results can be specialized according to the business that wishes to purchase this code. 
 
 ## Challenge Overview 
-The challenging part of this assignment for me was understanding the anatomy of the code; figuring out the logic of writing the code. I read more about Python on the internet before I started doing the challenge. I also tested myself by writing a three-round rock, paper, scissors match between me and the computer. I learned that experimenting with the code allowed me to understand what I wanted to do more thoroughly.
+The challenging part of this assignment for me was understanding the anatomy of the code; figuring out the logic of writing the code. I read more about Python on the internet before I started doing the challenge. I also tested myself by writing a three-round rock, paper, scissors match between me and the computer. I learned that experimenting with the code allowed me to understand what I wanted to do more thoroughly. I believe the code can be refactored to optimize its efficiency; there is always ways to run the code faster and write it in a more concise language. 
 
  
 
